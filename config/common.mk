@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= resurrection
+PRODUCT_BRAND ?= smombie
 
 ifneq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
 # determine the smaller dimension
@@ -81,9 +81,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
 
-# RomStats
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/RomStats/RomStats.apk:system/app/RomStats/RomStats.apk
 
 # Backup Tool
 ifneq ($(WITH_GMS),true)
@@ -158,7 +155,7 @@ PRODUCT_PACKAGES += \
     CMSettingsProvider \
     OmniSwitch \
     ExactCalculator \
-    ResurrectionOTA
+    
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
@@ -234,14 +231,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
-PRODUCT_VERSION = 5.6.0
-    CM_VERSION := ResurrectionRemix-M-v$(PRODUCT_VERSION)-$(shell date -u +%Y%m%d)-$(CM_BUILD)
+PRODUCT_VERSION = 1.0.0
+    CM_VERSION := SmombieRom-M-v$(PRODUCT_VERSION)-$(shell date -u +%Y%m%d)-$(CM_BUILD)
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.rr.version=$(CM_VERSION) \
   ro.modversion=$(CM_VERSION) \
-  ro.romstats.url=http://resurrectionremix.sourceforge.net/stats \
-  ro.romstats.name=ResurrectionRemix \
+  ro.romstats.name=SmombieRom \
   ro.romstats.version=$(PRODUCT_VERSION) \
   ro.romstats.tframe=7 
 
