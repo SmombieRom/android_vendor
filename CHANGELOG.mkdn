@@ -1,27 +1,27 @@
 
   Resurrection Remix ROM
 
-  Source Code: http://github.com/ResurrectionRemix
-  Website: http://www.resurrectionremix.com
+  Source Code: https://github.com/SmombieRom
+  Website: https://github.com/SmombieRom
   For extended changelog, track github activities
 
 The Changelog
 
-# ResurrectionRemix- v5.6.0 - 20151214
+# SmombieRom- v1.0.0 - 
 
 - Fix Bootloop after flashing gapps
 - Fix other minor issues
 - Performance improvements
 
-# Resurrection Remix- v5.6.0  Marshmallow 6.0.1_r3
+# Smombie Rom- v1.0.0  Marshmallow 6.0.1_r3
 
-Resurrection Remix Marshmallow
+Smombie Rom Marshmallow
 
  
 Features:-
 Based On Latest Google Android 6.0.1 Release
 Based On Cyanogenmod 13 Sources
-RR Customizations:-
+Smombie Customizations:-
 -Navigation Bar
         -Enable/Disable Navbar
         -Navbar Button Customization
@@ -202,7 +202,7 @@ Other Features
  
 -SuperSU Inbuilt
  
--RR OTA
+-Smombie OTA
 -Optimized With UBER TC for smoother ,Snappier and Battery Friendly Performance 
 -CM Theme Chooser
 -OverAll Smoothness Improvements
