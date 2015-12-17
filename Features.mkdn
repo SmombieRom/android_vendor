@@ -1,10 +1,10 @@
 
-Resurrection Remix Marshmallow
+Smombie Rom Marshmallow
  
 Features:-
 Based On Latest Google Android 6.0.1 Release
 Based On Cyanogenmod 13 Sources
-RR Customizations:-
+Smombie Customizations:-
 -Navigation Bar
         -Enable/Disable Navbar
         -Navbar Button Customization
@@ -185,7 +185,7 @@ Other Features
  
 -SuperSU Inbuilt
  
--RR OTA
+-Smombie OTA
 -CM Theme Chooser
 -OverAll Smoothness Improvements
 -Optimizations to Improve Battery
