@@ -77,10 +77,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/Adaway/Adaway.apk:system/app/Adaway/Adaway.apk
 
-# KernelAdiutor
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
-
 
 # Backup Tool
 ifneq ($(WITH_GMS),true)
